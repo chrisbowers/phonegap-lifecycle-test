@@ -39,3 +39,33 @@ var launched_count = 0;
 		resumed_count++;
 		updateDisplay();
     }
+
+var key = “wallet”;
+var value = “brown”;
+    window.localStorage.setItem( key, value );
+var key = “wallet”;
+var value = window.localStorage.getItem(brown);
+
+var key = “pen”;
+var value = “blue”;
+    window.localStorage.setItem( key, value );
+var key = “pen”;
+var value = window.localStorage.getItem(blue);
+
+var key = “card”;
+var value = “visa”;
+    window.localStorage.setItem( key, value );
+var key = “card”;
+var value = window.localStorage.getItem(visa);
+
+var key = “bag”;
+var value = “white”;
+    window.localStorage.setItem( key, value );
+var key = “bag”;
+var value = window.localStorage.getItem(white);
+
+var key = “shoe”;
+var value = “red”;
+window.localStorage.setItem( key, value );
+var key = “shoe”;
+var value = window.localStorage.getItem(red);
